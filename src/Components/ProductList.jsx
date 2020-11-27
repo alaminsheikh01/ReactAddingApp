@@ -28,6 +28,7 @@ class Product extends Component{
 
                     <div className="card-text">
                         <p>Price: {this.props.price}</p>
+                        <h5>Qty: {this.state.qty} item</h5><br/>
                         <button className="btn btn-primary mr-2" onClick={this.buy}>Buy</button>
                         <button className="btn btn-primary" onClick={this.show}>show</button>
                     </div>
